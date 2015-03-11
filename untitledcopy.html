@@ -1,0 +1,73 @@
+  $url = request_uri();
+  if ( $url == "/content/pdsi-executive-report"){
+    $strImage = <<<loadImg
+      (function($) {
+          $(".col-md-3").addClass('col-sm-6');
+      })(jQuery);
+loadImg;
+    drupal_add_js($strImage, array('type' => 'inline', 'scope' => 'footer', 'weight' => 19));
+
+}
+
+http://pdsi/content/pdsi-tool
+What are the critical factors that influence software development success?
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54e3b7281cec2aaf" async="async"></script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_sharing_toolbox"></div>
+
+
+
+<div class="navigate-ad-block"><a href="http://navigate-beta.3pillarglobal.com/"><img src="/sites/all/themes/progressive/img/navigate_ad.png" /></a></div>
+
+
+  $url = current_path();
+  if ( $url == "node/2" || $url == "node/3" || $url == "node/17"){
+    $strImage = <<<loadImg
+      (function($) {
+          $(".col-md-3").addClass('col-sm-6');
+      })(jQuery);
+loadImg;
+    drupal_add_js($strImage, array('type' => 'inline', 'scope' => 'footer', 'weight' => 19));
+
+  }
+]
+
+
+
+
+.articles-page-view-custom .views-row .views-field-field-image .field-content a img{height: 106px !important;width: 220px !important;}
+
+
+
+<?php       
+$block = module_invoke('search', 'block_view', 'form');
+print render($block['content']);
+?>
+
+
+<?php
+          $block = module_invoke('search', 'block_view', 'search');
+          print render($block); 
+?>
+<?php
+$block = module_invoke('search', 'block_view');
+print render($block['content']);
+?>
+
+
+
+function progressive_sub_preprocess_search_result(&$variables) {
+    $variables['snippet'] = drupal_substr($variables['result']['node']->body['und'][0]['value'],0,300)."...Read More";
+}
+
+
+
+
+  .join-image{width:10%;}
+    .join-text{width:53%;}
+    #pardot-form .form-field{width:240px;}
+     #pardot-form .submit{width:101px;}
+  
